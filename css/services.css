@@ -37,6 +37,8 @@
 
 .services__wrap {
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
     gap: 30px;
 }
 
@@ -66,5 +68,5 @@
     font-size: 14px;
     font-weight: 300;
     line-height: 13px;
-    padding-bottom: 4px;
+    margin-bottom: 5px;
 }
