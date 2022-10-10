@@ -8,6 +8,7 @@
     background: #ffffff;
     overflow: hidden;
     transition: 0.3s ease;
+    z-index: 100;
 }
 
 .aside:hover {
@@ -52,4 +53,16 @@
 
 .nav__link:hover{
     color: #2A86B1;
+}
+
+
+@media screen and (max-width:1440px) {
+    .aside{
+        display: block;
+    }
+}
+@media screen and (max-width:1320px) {
+    .aside{
+        display: none;
+    }
 }

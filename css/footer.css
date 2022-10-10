@@ -16,7 +16,7 @@
     gap: 15px;
 }
 
-.logo {
+.footer__logo {
     font-family: 'Rubik', sans-serif;
     font-size: 50px;
     font-weight: 700;
@@ -25,13 +25,30 @@
 }
 
 .contacts__link {
-    font-family: 'Rubik',sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
     color: #FFFFFF;
 }
+
 .contacts__link:hover {
     font-weight: 700;
     transition: 0.3s ease;
+}
+
+@media screen and (max-width:550px) {
+  .footer__wrap{
+      flex-direction: column;
+  }
+  .contacts{
+      align-items: center;
+      justify-content: center;
+
+  }
+}
+@media screen and (max-width:333px){
+    .footer__logo{
+        font-size: 45px;
+    }
 }
